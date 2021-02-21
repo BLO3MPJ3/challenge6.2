@@ -26,7 +26,7 @@
             $autosignature = "<div class= 'kenmerk'>";
     
             $autotitle .= $row['merk'] . " " . $row['model'] . " &euro; " . $row['vraagprijs'] . " ";
-            $autobutton .= "<a href='./includes/proefritaanvraag.inc.php?idauto=" . $row['id'] ."'><button>Proefrit aanvragen</button></a>" . " " . "<button type='button'>Offerte aanvragen</button>" . " ";
+            $autobutton .= "<a href='./includes/proefritaanvraag.inc.php?idauto=" . $row['id'] ."'><button>Proefrit aanvragen</button></a>" . " " . "<a href='./includes/offerteaanvraag.inc.php?idauto=" . $row['id'] ."'><button>Offerte aanvragen</button></a>" . " ";
             $autosignature .= "Status:" . $row['status'] . " " . "Bouwjaar:" . $row['bouwjaar'] . " " . "KM stand:" . $row['kmstand'] . " " . "Kenteken:" . $row['kenteken'] . " " . "Kleur:" . $row['kleur'] . " " . "APK:" . $row['apk'] . " " . "Stuurbekrachtiging:" . $row['stuurbekrachtiging'] . " " . 
             "Airbag:" . $row['airbag'] . " " . "Brandstof:" . $row['brandstof'] . " " . "Gewicht:" . $row['gewicht'] . " " . "Transmissie:" . $row['transmissie'] . " " . "Deuren:" . $row['deuren'] . " " . "Airco:" . $row['airco'] . " " . "ABS optie:" . $row['abs_optie'] . " ";
 

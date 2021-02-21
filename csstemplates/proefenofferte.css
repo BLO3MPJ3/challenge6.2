@@ -41,7 +41,28 @@ body{
   }
 
   .telefoon{
-    padding:8px;
+    padding: 8px;
     border: 1px solid rgba(204, 204, 204, 0.986) #ccc;
     width: 20%;
+  }
+
+  .info{
+    padding: 8px;
+    border: 1px solid rgba(204, 204, 204, 0.986) #ccc;
+    width: 40%;
+  }
+
+  input[type=text] {
+    border: none;
+    border-bottom: 2px solid #3e5ca4;
+  }
+
+  input[type=tel1] {
+    border: none;
+    border-bottom: 2px solid #3e5ca4;
+  }
+
+  input[type=email] {
+    border: none;
+    border-bottom: 2px solid #3e5ca4;
   }
