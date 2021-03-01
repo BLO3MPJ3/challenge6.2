@@ -1,20 +1,20 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('../images/Wallpaper.jpg');
+    background-color: #b0b0b0;
     background-size: cover;
     overflow: hidden;
  }
 
 .proef{
     width: 60%; 
-    height: 600px; /* width en height is even experimenteren */
-    margin: 100px auto 0 auto; /* positie is ook even experimenteren */
+    height: 50%; /* width en height is even experimenteren */
+    margin: 40px auto 0 auto; /* positie is ook even experimenteren */
     padding: 25px;
     border: 1px solid #bbbbbb;
     background-color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .voorwaarden{
@@ -66,3 +66,14 @@ body{
     border: none;
     border-bottom: 2px solid #3e5ca4;
   }
+
+  .offerte{
+    width: 60%; 
+    height: 600px; /* width en height is even experimenteren */
+    margin: 100px auto 0 auto; /* positie is ook even experimenteren */
+    padding: 25px;
+    border: 1px solid #bbbbbb;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

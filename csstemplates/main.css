@@ -1,0 +1,58 @@
+body {
+  background-image: url("../images/achtergrond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7599c1;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #3e5ca4;
+  }
+
+  /* CSS van hoofdelementen */
+
+  #menu {
+    margin:-8px;
+    position: relative;
+  }
+  
+  #contentblok {
+    border: thin solid yellow;
+  }
+  
+  #footer {
+    height: 90px;
+    background-color: #7599c1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../csstemplates/main.css" type="text/css">
     <link rel="stylesheet" href="../csstemplates/proefenofferte.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
@@ -10,6 +11,12 @@
 </head>
 
 <body>
+    <ul>
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../occasions.php">Showroom</a></li>
+        <li><a href="#informatie">Informatie</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 <?php
     require_once ('./connection.inc.php');
 
@@ -48,21 +55,22 @@
         echo $proefrit;
 
     }
-
-    
-
 ?>
 
 <script>
 
 function verzend() {
-  
+
   document.getElementById('click').innerHTML = 'Uw aanvraag is verzonden';
   document.getElementById('click').style.color = '#33d222';
  
 }
 
 </script>
+
+<footer id="footer">
+    V!ST@CARS © 2021
+  </footer>
 
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../csstemplates/main.css" type="text/css">
     <link rel="stylesheet" href="../csstemplates/proefenofferte.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
@@ -10,6 +11,14 @@
 </head>
 
 <body>
+  
+    <ul>
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../occasions.php">Showroom</a></li>
+        <li><a href="#informatie">Informatie</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul> 
+
 <?php
     require_once ('./connection.inc.php');
 
@@ -29,37 +38,45 @@
 
     foreach($result as $key => $row) {
 
-        $proefrit= "<div class= 'proef'>";
+        $offerte= "<div class='proef'>";
 
         foreach($resultimage as $key2 => $row2) {
-            $proefrit .= "<img src='../dbimages/" . $row2['name_image'] . "' width='200px'>";
+            $offerte .= "<img src='../dbimages/" . $row2['name_image'] . "' width='200px'>";
         }
 
-        $proefrit .= "<b><h2>Offerte aanvragen</h2></b>" . " " . "U wilt een offerte aanvragen voor de" . " " . "<b>" .
+        $offerte .= "<b><h2>Offerte aanvragen</h2></b>" . " " . "U wilt een offerte aanvragen voor de" . " " . "<b>" .
             $row['merk'] . " " . $row['model'] . " " . "van" . " &euro;" . $row['vraagprijs'] . " " . "</b>" .
             "met het kenteken" . " " . "<b>" . $row['kenteken'] . "</b> " . "<p id='click'>Vul hier uw gegevens in:<br><input class='info' type='text' id='fname' name='fname' autocomplete='off' placeholder='voornaam'><br>" . " " .
             "<input class='info' type='text' id='lname' name='lname' autocomplete='off' placeholder='achternaam'><br>" . " " . "<input class='info' type='tel1' id='phone' name='phone' autocomplete='off' placeholder='telefoonnummer'><br>" . " " . "<input class='info' type='email' id='email' name='email' placeholder='e-mail'  autocomplete='off'>" .
-             "</br><br>Wij nemen zo spoedig mogelijk contact met u op om de offerte met u te bespreken." . "</br></br>" . "<button class='button button1' onclick='verzend()'>Verzenden</button>" . "</br></br>" . "Team V!st@Cars" . "</p>";
-        
+            "<p id='inwissel'>Wilt u een auto inruilen? <label for='myCheck'>Ja:</label><input type='checkbox' id='myCheck' onclick='inruil()'></p>" . " " . "</br>" . "<button class='button button1' onclick='verzend()'>Verzenden</button>" . "</br></p></div>";
+
    
-        echo $proefrit;
+        echo $offerte;
 
     }
-
-    
-
 ?>
 
 <script>
 
+function inruil() {
+
+  document.getElementById('inwissel').innerHTML = '<label for="nauto">Vul hier de gegevens van uw auto in: </label><input class="telefoon" type="" placeholder="Merkauto" id="nauto" name="nauto"> <label for="tauto"></label><input class="telefoon" type="" placeholder="Modelauto" id="tauto" name="tauto"> <label for="kauto"></label><input class="telefoon" type="" placeholder="Kentekenauto" id="tauto" name="tauto">';
+  
+}
+
 function verzend() {
   
-  document.getElementById('click').innerHTML = 'Uw aanvraag is verzonden';
+  document.getElementById('inwissel').style.visibility = 'hidden';
+  document.getElementById('click').innerHTML = 'Uw aanvraag is verzonden, wij nemen zo spoedig mogelijk contact met u op om de offerte met u te bespreken.';
   document.getElementById('click').style.color = '#33d222';
  
 }
 
 </script>
+
+<footer id="footer">
+    V!ST@CARS © 2021
+  </footer>
 
 </body>
 </html>
