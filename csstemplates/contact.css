@@ -1,0 +1,262 @@
+section {
+  width: 90%;
+  margin: 0px auto 0 auto;
+  border: 1px solid #bbbbbb;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background: url('../images/achtergrond.jpg') no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.location_info {
+  width: 80vw;
+  height: 358vh;
+  padding: 3vh;
+  background: rgb(192, 192, 192);
+  margin-top: 2px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.titleCON {
+  width: 60vw;
+  height: 9vh;
+  margin-top: 3vh;
+  float: none;
+  background: rgb(62, 92, 164);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.subtitle {
+  font-size: 7.9vh;
+  width: 35vw;
+  height: 10vh;
+  margin-top: 2vh;
+  background: rgb(87, 132, 181);
+  text-align: center;
+  border-radius: 8px;
+}
+
+#IFNCON {
+  width: 38vw;
+  height: 81vh;
+  margin-top: 3vh;
+  float: left;
+  text-align: left;
+  border-radius: 10px;
+}
+
+#IFNCON1 {
+  width: 38vw;
+  height: 81vh;
+  margin-top: 3vh;
+  float: right;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.adress1 {
+  font-size: 3.5vh;
+  width: 29vw;
+  height: 8vh;
+  margin-top: 2vh;
+  margin-left: 70px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.map {
+  width: 30vw;
+  height: 50vh;
+  margin: auto;
+  margin-top: 5vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#coronamelding {
+  width: 38vw;
+  height: 38vw;
+  margin: auto;
+  margin-top: 3vh;
+  float: right;
+  border-radius: 8px;
+}
+
+.coronainfo {
+  width: 30vw;
+  height: 60vh;
+  margin: auto;
+  margin-top: 5vh;
+  box-shadow: 5px 5px 15px rgb(219, 73, 73);
+  background-color: rgb(192, 192, 192);
+  border-radius: 5px;
+}
+
+.contactinfo1 {
+  width: 25vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 5vh;
+  float: left;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contactinfo2 {
+  width: 25vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 5vh;
+  float: right;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contactinfo3 {
+  width: 25vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 5vh;
+  float: center;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.titlecontactopnemen {
+  width: 60vw;
+  height: 9vh;
+  margin-top: 180vh;
+  float: none;
+  background: rgb(87, 132, 181);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contactopnemen {
+  width: 34vw;
+  height: 94vh;
+  margin: auto;
+  margin-top: 3vh;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.mailtel {
+  width: 14vw;
+  height: 22vh;
+  margin-top: 0vh;
+  margin-bottom: 2vh;
+  margin-left: 2vw;
+  float: left;
+  border-radius: 8px;
+}
+
+.mailtel_inf {
+  width: 11vw;
+  height: 7vh;
+  padding: 1vh;
+  margin-top: 1vh;
+  border-radius: 8px;
+}
+
+.subname {
+  width: 14vw;
+  height: 22vh;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  margin-left: 18vw;
+  float: none;
+  border-radius: 8px;
+}
+
+.subname_info {
+  width: 11vw;
+  height: 7vh;
+  padding: 1vh;
+  margin-top: 1vh;
+  border-radius: 8px;
+}
+
+.adres {
+  width: 14vw;
+  height: 25vh;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  margin-left: 4vh;
+  float: left;
+  border-radius: 8px;
+}
+
+.adres_info1 {
+  width: 11vw;
+  height: 7vh;
+  padding: 1vh;
+  margin-top: 1vh;
+  border-radius: 8px;
+}
+
+.adres_info2 {
+  width: 11vw;
+  height: 10vh;
+  padding: 1vh;
+  margin-top: 1vh;
+  border-radius: 8px;
+}
+
+.meeting {
+  width: 13vw;
+  height: 23vh;
+  padding: 1vh;
+  margin-top: 4vh;
+  margin-left: 38vh;
+  float: none;
+  border-radius: 8px;
+}
+
+.meeting_info {
+  width: 11vw;
+  height: 7vh;
+  padding: 1vh;
+  margin-top: 1vh;
+  border-radius: 8px;
+}
+
+.message {
+  width: 29vw;
+  height: 21vh;
+  padding: 1vh;
+  margin-top: 2vh;
+  margin-left: 4vh;
+  float: bottom;
+  border-radius: 8px;
+}
+
+.button {
+  width: 11vh;
+  height: 3vh;
+  padding: 1vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  float: left;
+  border-radius: 8px;
+  float: none;
+}
