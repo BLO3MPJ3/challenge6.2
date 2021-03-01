@@ -10,10 +10,10 @@
 </head>
 <body>
   <ul>
-    <li><a href="#home">Home</a></li>
+    <li><a href="index.php">Home</a></li>
     <li><a href="occasions.php">Showroom</a></li>
-    <li><a href="#informatie">Informatie</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="info.php">Informatie</a></li>
+    <li><a href="contact.php">Contact</a></li>
   </ul>
 
 <?php

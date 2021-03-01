@@ -1,0 +1,58 @@
+.info {
+  width: 80vw;
+  height: 358vh;
+  padding: 3vh;
+  background: rgb(192, 192, 192);
+  margin-top: 2px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.title {
+  width: 60vw;
+  height: 9vh;
+  margin-top: 3vh;
+  margin: auto;
+  float: none;
+  background: rgb(62, 92, 164);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.leftbox {
+  width: 38vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 5vh;
+  margin-left: 2vh;
+  float: left;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.rightbox {
+  width: 38vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 5vh;
+  margin-right: 2vh;
+  float: right;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.middlebottombox {
+  width: 78vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 40vh;
+  float: none;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
