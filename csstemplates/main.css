@@ -2,7 +2,45 @@ body {
   background-image: url("../images/achtergrond.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0px;
   }
+  
+/* CSS van hoofdelementen */
+  
+#menubalk {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#contentblok {
+  position: relative;
+	min-height: 500px;				/* minimale hoogte van de content... aanpassen waar nodig */
+	width: 100%;
+}
+
+#footerbalk {
+	background-color: #7599c1;
+  color: white;
+	height: 90px;
+	width: 100%;
+	position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+#contentcontainer{
+  border: rgb(56, 0, 211);
+  border-width: 5px;
+  width: 100%;
+}
+
+#nieuwscontainer{
+  border: rgb(211, 0, 0);
+  border-width: 5px;
+  width: 100%;
+}
 
 ul {
     list-style-type: none;
@@ -11,48 +49,52 @@ ul {
     overflow: hidden;
     background-color: #7599c1;
   }
-  
-  li {
-    float: left;
-    border-right:1px solid #bbb;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #3e5ca4;
-  }
 
-  /* CSS van hoofdelementen */
+li {
+	float: left;
+	border-right:1px solid #bbb;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
 
-  #menu {
-    margin:-8px;
-    position: relative;
-  }
-  
-  #contentblok {
-    border: thin solid yellow;
-  }
-  
-  #footer {
-    height: 90px;
-    background-color: #7599c1;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #3e5ca4;
+}
+
+.photo{
+  margin: 15px;
+  width: 100px;
+  border: darkviolet;
+  border-width: 5px;
+}
+
+.moreinfo{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+  background-color: #3e5ca4;
+  width: 400px;
+  height: 100px;
+  margin: 15px;
+}
+
+.nieuws{
+  background-color: #3e5ca4;
+  width: 1200px;
+  height: 200px;
+  margin-left: 200px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}

@@ -74,9 +74,9 @@ function verzend() {
 
 </script>
 
-<footer id="footer">
-    V!ST@CARS © 2021
-  </footer>
+<div id="footerbalk">
+  <p>V!ST@CARS © 2021 </p>
+</div>
 
 </body>
 </html>

@@ -19,7 +19,10 @@
         <li><a href="info.php">Informatie</a></li>
         <li><a href="contact.php">Contact</a></li>
     </ul>
-</div> <!--
+</div>
+    
+
+
 <div id="contentblok">
     <?php
         require_once ('./includes/connection.inc.php');
@@ -58,9 +61,11 @@
 
     ?>
 </div>
-<div id="footer">
-  <p>V!ST@CARS © 2021</p>
+
+
+<div id="footerbalk">
+  <p>V!ST@CARS © 2021 </p>
 </div>
-    -->
+
 </body>
 </html>
