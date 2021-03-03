@@ -41,13 +41,16 @@
       $stmt->execute();
       $resultimage = $stmt->fetchAll();
 
+
+
     foreach($resultimage as $keyimage => $rowimage) {
 
-        $content .= "<div class='photo'><img src='./dbimages/" . $rowimage['name_image'] . "' style='width: 400px'></div>";
+        $content .= "<div id='autocontainer'>";
+        $content .= "<div class='photo'><img src='./dbimages/" . $rowimage['name_image'] . "' class='fotoauto'></div>";
 
     }
 
-    $content .= "<div class='moreinfo'> " . $row['merk'] . " " . $row['model'] . " &euro; " . $row['vraagprijs'] . "</div>";
+    $content .= "<div id='moreinfo'><div class='moreinfos'>" . $row['merk'] . " " . $row['model'] . "<br />" . " &euro; " . $row['vraagprijs'] . "</div></div></div>";
 
   }
   
@@ -58,13 +61,13 @@
 ?>
 
 <div id="nieuwscontainer">
-<div class="nieuws"><p><img src="./images/info.jpg" style="vertical-align:top;margin:0px 0px; width: 360px">Informatie pagina</p></br></div>
-<div class="nieuws"><p><img src="./images/contact.png" style="vertical-align:top;margin:0px 0px; width: 360px">Contact pagina</p></div>
+  <div class="nieuws"><img src='./images/info.jpg' class="Titel"><p class="nieuwstitel"><div class= "Taal">Laatste informatie</div><div class="NogMeerTekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus quam, mattis quis nisi a, finibus congue metus. Cras eu leo elit. Nam hendrerit sed nulla sed placerat. Sed et mi tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum nulla a vulputate aliquet. Mauris vitae nibh vehicula felis rhoncus sollicitudin. Nulla consectetur commodo nisi, eget accumsan quam dictum nec. Maecenas eros eros, sodales a posuere vitae, tempus a nulla.</div></div></div></p>
+  <div class="nieuws"><img src="./images/contact.png" class='Titel'><p class="nieuwstitel"><div class= "Taal">Bij ons staat de ZOOM sessie klaar</div><div class="NogMeerTekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus quam, mattis quis nisi a, finibus congue metus. Cras eu leo elit. Nam hendrerit sed nulla sed placerat. Sed et mi tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum nulla a vulputate aliquet. Mauris vitae nibh vehicula felis rhoncus sollicitudin. Nulla consectetur commodo nisi, eget accumsan quam dictum nec. Maecenas eros eros, sodales a posuere vitae, tempus a nulla.</div></div></div></p>
 </div>
 
 <div id="footerbalk">
-  <p>V!ST@CARS © 2021 </p>
-</div>
+  <p class="logo">V!ST@CARS © 2021</p>
+</div></div>
   
   
 </body>

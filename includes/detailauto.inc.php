@@ -64,8 +64,8 @@
 ?>
 
 <div id="footerbalk">
-  <p>V!ST@CARS © 2021 </p>
-</div>
+  <p class="logo">V!ST@CARS © 2021</p>
+</div></div>
   
 
 </body>
