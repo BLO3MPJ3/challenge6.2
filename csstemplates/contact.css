@@ -13,7 +13,7 @@ body {
   margin-bottom: 1vh;
   background: url('../images/achtergrond.jpg') no-repeat;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .location_info {
