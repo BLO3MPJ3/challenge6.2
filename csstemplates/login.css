@@ -1,7 +1,9 @@
 * { margin: 0px; padding: 0px; }
 body {
 	font-size: 120%;
-	background-image:url(../images/blue-road.jpg);
+	background-image:url(../images/achtergrond.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: 'Roboto', sans-serif;
 	
 }
