@@ -3,9 +3,9 @@
 function getDbConnection(){
 
     $dbhost     = "localhost";
-    $dbname     = "db_gr7_challenge6.2";
-    $dbuser     = "Melissa";
-    $dbpass     = "Melissa01";
+    $dbname     = "db_gr7_challenge6_2";
+    $dbuser     = "db_gr7_challenge6_2";
+    $dbpass     = "s5c6M%8m";
     $conn       = "";          // connection string
     $pdo        = "";          // handler
     $charset = 'utf8mb4';
