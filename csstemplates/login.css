@@ -1,0 +1,156 @@
+* { margin: 0px; padding: 0px; }
+body {
+	font-size: 120%;
+	background-image:url(../images/blue-road.jpg);
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: rgb(0, 0, 0);
+	background: rgb(62, 93, 164);
+	text-align: center;
+	border-bottom: none;
+	padding: 20px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.76);
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.admin-content {
+	width: auto;
+	margin: 0px auto;
+	padding: 20px;
+	background: rgba(180, 225, 255, 0.884);
+	border-radius: 0px 0px 0px 10px;
+	
+	float:right;
+	box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.input-group input:focus {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: rgb(62, 93, 164);
+	border: none;
+	border-radius: 5px;
+}
+.btn:hover {
+	background:rgb(87, 132, 181);
+}
+
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.profile_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.menu-admin {
+	margin: 3% 15% 0px;
+	width:70%;
+	height:75%;
+	background-image: linear-gradient(to bottom right, rgba(91, 125, 236, 0.842), rgb(0, 0, 0));
+	position: absolute;
+	border:solid rgb(0, 13, 19) 10px;
+	border-radius: 15px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.menu-admin-header {
+	width: 100%;
+	height: 45px;
+	color: rgb(255, 255, 255);
+	background: rgba(0, 44, 54, 0.603);
+	text-align: center;
+	border-bottom: none;
+}
+.pagina-box {
+	height:60px;
+	width:300px;
+	background-color: rgb(224, 235, 247);
+	border-radius: 10px;
+	position: absolute;
+	font-size: 40px;
+	text-align: center;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border:solid black 3px;
+	margin-left:10%;
+	margin-top:3%;
+	padding:5px;
+}
+.pagina-box:hover{
+	background-color:rgb(197, 205, 252);
+	
+}
+.terug-box {
+	height:auto;
+	width: auto;
+	
+	margin-left:0;
+	
+	font-size: 30px;
+	
+	border-radius: 0px 0px 10px 0px;
+	padding: 10px;
+	color: white;
+	background: rgb(62, 93, 164);
+	border: none;
+	
+	
+}
+.terug-box:hover {
+	background-color: rgb(87, 132, 181);
+}
