@@ -18,9 +18,9 @@ if (!isLoggedIn()) {
         <div class="header_menu">
                 <div class="menu_list">
                         <ul>	
-                            <li><a href="../showroom/index.php">SHOWROOM</a></li>
+                            <li><a href="../ocassions.php">SHOWROOM</a></li>
                         </ul>	
-                </div>
+                </div> 
          </div>  
     </header>
 
