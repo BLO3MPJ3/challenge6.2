@@ -3,7 +3,7 @@
 function getDbConnection(){
  
     $dbhost     = "localhost";
-    $dbname     = "db_gr7_challenge6_2";
+    $dbname     = "db_gr7_challenge6.2";
     $dbuser     = "roy6.2";
     $dbpass     = "TH3_K@K3R0";
     $conn       = "";          // connection string

@@ -52,7 +52,6 @@ function login(){
 	}
 
 	if (count($errors) == 0) {
-		$password = md5($password);
 
 		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
 		$results = mysqli_query($db, $query);
@@ -79,6 +78,15 @@ function login(){
 function isAdmin()
 {
 	if (isset($_SESSION['user']) && $_SESSION['user']['user_type'] == 'admin' ) {
+		return true;
+	}else{
+		return false;
+	}
+}
+
+function isLoggedIn()
+{
+	if (isset($_SESSION['user'])) {
 		return true;
 	}else{
 		return false;
