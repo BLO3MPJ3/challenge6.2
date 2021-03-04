@@ -17,7 +17,7 @@ body {
 
 #contentblok {
   position: relative;
-	min-height: 500px;				/* minimale hoogte van de content... aanpassen waar nodig */
+  min-height: 1100px;				/* minimale hoogte van de content... aanpassen waar nodig */
 	width: 100%;
 }
 

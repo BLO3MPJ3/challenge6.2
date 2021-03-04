@@ -21,8 +21,6 @@
     </ul>
 </div>
     
-
-
 <div id="contentblok">
     <?php
         require_once ('./includes/connection.inc.php');
@@ -62,11 +60,10 @@
     ?>
 </div>
 
-
 <div id="footerbalk">
 <a href="login.php" class="login">Login</a>
   <p class="logo">V!ST@CARS © 2021</p>
-</div></div>
+</div>
 
 </body>
 </html>
