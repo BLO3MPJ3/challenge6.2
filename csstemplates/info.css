@@ -1,6 +1,10 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .info {
   width: 80vw;
-  height: 358vh;
+  height: 85vh;
   padding: 3vh;
   background: rgb(192, 192, 192);
   margin-top: 2px;
