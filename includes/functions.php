@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$db = mysqli_connect('localhost', 'root', '', 'db_gr7_challenge6.2');
+$db = mysqli_connect('localhost', 'db_gr7_challenge6_2', 's5c6M%8m', 'db_gr7_challenge6_2');
 
 $username = "";
 $email    = "";
